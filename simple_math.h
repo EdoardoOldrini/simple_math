@@ -2,15 +2,21 @@
 	\brief a toy example of a header
 	\author Edoardo Oldrini
 */
-
-
-
 #ifndef _SIMPLEMATH_
 #define _SIMPLEMATH_
 
-//somma: INPUT: 2 numeri interi; Output: 1 numero intero
-int sum(int a, int b);
+typedef struct complex_n{
+	float re;
+	float imm;
+} complex;
 
-//media: INPUT: 2 numeri interi; Output: 1 float.
+
+
+//somma: INPUT: 2 numeri complessi; Output: 1 numero complesso
+int sum(int a, int b);
+complex sum_cmplx(complex a, complex b);
+
+//media: INPUT: 2 numeri complessi; Output: 1 comlesso.
 float avg(int a, int b);
+complex avg_cmplx(complex a, complex b);
 #endif
