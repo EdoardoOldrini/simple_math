@@ -12,5 +12,5 @@
 int sum(int a, int b);
 
 //media: INPUT: 2 numeri interi; Output: 1 float.
-
+float avg(int a, int b);
 #endif

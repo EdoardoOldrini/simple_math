@@ -10,4 +10,8 @@ int sum(int a, int b){
     return a + b;
 }
 
+float avg(int a, int b){
+	return sum (a,b)/2;
+}
+
 
